@@ -15,5 +15,5 @@
     "type": "git",
     "url": "git+https://github.com/FerLuisxd/addPropertyToObject.git"
   },
-  "description": ""
+  "description": "Quickly add properties to and object with an especific index"
 }
