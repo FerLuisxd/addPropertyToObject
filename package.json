@@ -11,5 +11,9 @@
   ],
   "author": "FerLuisxd",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FerLuisxd/addPropertyToObject.git"
+  },
   "description": ""
 }
