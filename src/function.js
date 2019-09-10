@@ -8,7 +8,6 @@
    */
 function addPropertyToObjectWithIndex(obj, newProp, index) {
     index = Number(index);
-    console.log('index',0)
     if (!(newProp instanceof Object) || !(obj instanceof Object))
         throw "First and Second params must be Object types";
     if (typeof index != "number") throw "Third param must be a number";
