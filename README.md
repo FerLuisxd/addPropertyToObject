@@ -3,9 +3,9 @@
 Usage:
 
 ```
+let addProperty = require('add-property-to-object')
 let obj = { place: "New World Pizza", location: 200 };
-obj = addPropertyToObjectWithIndex
-(obj,{ especialty: "Pizza", dishes: [{ name: "American" }, { name: "Full Meat" }] }, 0);
+obj = addProperty(obj,{ especialty: "Pizza", dishes: [{ name: "American" }, { name: "Full Meat" }] }, 0);
 console.log(obj);
 //Obj now =
 // {
